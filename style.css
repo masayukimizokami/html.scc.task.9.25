@@ -71,10 +71,7 @@ a {
 .header-logo:hover{
     opacity: 0.5;
 }
-/*img {
-    border: 0;
-    vertical-align: middle;
-}*/
+
 
 .header-logo > .header-logo-sp {
     display: none;
@@ -86,13 +83,7 @@ img {
 
 
 
-/*.site-header .site-header-inner > *:last-child {
-    display: inline-flex;
-}*/
 
-/*.header-nav-hamburger {
-    display: none;
-}*/
 .header-nav-list  li :hover{
     opacity: 0.5;
 }
@@ -100,10 +91,7 @@ img {
 header-nav .header-nav-list.contents-tidy {
     align-items: center;
 }
-/*.contents-tidy {
-    display: flex;
-    justify-content: space-between;
-}*/
+
 ul, ol .header-nav .header-nav-list.contents-tidy{
     list-style: none;
 }
@@ -119,15 +107,7 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
     transition: opacity 0.2s;
 }
 
-/*.header-nav .header-nav-item > span:first-child {
-    font-family: 'Lato', sans-serif;
-}*/
 
-/*.header-nav .header-nav-item > span {
-    display: block;
-    font-weight: bold;
-    text-align: center;
-}*/
 .header-nav .header-nav-item > span:last-child {
     font-size: 10px;
 }
@@ -138,12 +118,7 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
     text-align: center;
 }
 
-/*a {
-    color: #222;
-    text-decoration: none;
-}
-*/
-/*main*/
+
 
   /*01.firstview*/
 main {
@@ -197,9 +172,7 @@ p {
 .top-hero-box .top-hero-text > span {
     color: #f79314;
     }
-.top-hero-box > * + * {
-    margin-top: 30px;
-    }
+
 .top-hero-button:hover{
     opacity: 0.5;
 }
@@ -234,10 +207,7 @@ p {
 .hover-opacity {
     transition: opacity 0.2s;
 }
-/*a {
-    color: #222;
-    text-decoration: none;
-}*/
+
 .top-hero-box .No1-notation {
     margin: 0;
     position: absolute;
@@ -262,12 +232,7 @@ img {
     max-width: 512px;
     padding-top: 132px;
 }
-/*p {
-    color: #333;
-}
-p {
-    line-height: 1.5;
-}*/
+
 
 /* 02.POTEPAN CAMPとは */
 
@@ -280,26 +245,11 @@ p {
     padding: 100px 0;
 }
 
-      /*.content-width {
-    max-width: 1140px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}*/
-/*a {
-    color: #222;
-    text-decoration: none;
-}*/
 .banner-for-students {
     width: 100%;
     margin-bottom: 50px;
 }
-/*img {
-    border: 0;
-    vertical-align: middle;
-}*/
+
 .banner-for-students--sp {
     display: none;
 }
@@ -312,19 +262,7 @@ p {
     align-items: center;
 }
 
-/*.content-width {
-    max-width: 1140px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}*/
 
-      /*.contents-tidy {
-    display: flex;
-    justify-content: space-between;
-}*/
 .about-text {
     color: #fff;
     width: 53%;
@@ -352,12 +290,7 @@ p {
     line-height: 26px;
 }
 
-/*p {
-    color: #333;
-}
-p {
-    line-height: 1.5;
-}*/
+
 .about-text + .top-about-button {
     margin-top: 40px;
     width: 250px;
@@ -374,32 +307,13 @@ p {
     margin-right: 10px;
 }
 
-/*.link-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #f79314;
-    border-radius: 30px;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    font-weight: bold;
-    width: 100%;
-    height: 60px;
-    font-size: 20px;
-    border: none;
-}*/
+
 
 @media screen and (min-width: 768px)
 .hover-opacity {
     transition: opacity 0.2s;
 }
-/*a {
-    color: #222;
-    text-decoration: none;
-}*/
+
 .link-button span:first-child {
     letter-spacing: 4px;
     line-height: 1.5;
@@ -414,40 +328,7 @@ p {
 .main-section {
     padding: 100px 0;
 }
-/*.content-width {
-    max-width: 1140px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}*/
-/*.section-header.contents-tidy {
-    flex-direction: column;
-    align-items: center;
-}*/
 
-/*.section-header {
-    width: 100%;
-}
-.contents-tidy {
-    display: flex;
-    justify-content: space-between;
-}*/
-/*.section-main-heading {
-    font-size: 46px;
-    font-weight: bold;
-}*/
-/*.section-header h2 > span {
-    font-size: 50px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-}*/
-
-/*.section-main-heading span {
-    font-weight: 900;
-    font-family: 'Lato', sans-serif;
-}*/
 .section-main-heading {
     font-size: 46px;
     font-weight: bold;
@@ -460,12 +341,7 @@ p {
     text-align: center;
 }
 
-/*p {
-    color: #333;
-}
-p {
-    line-height: 1.5;
-}*/
+
 .section-sub-heading > span {
     font-family: 'Lato', sans-serif;
 }
@@ -484,9 +360,7 @@ p {
     margin-top: 110px;
 }
 
-/*ul, ol {
-    list-style: none;
-}*/
+
 
  /*<!-- 01 豊富な転職実績 -->*/
 .desc-list > li {
@@ -494,6 +368,7 @@ p {
     border-radius: 20px;
     text-align: center;
     padding: 40px;
+    list-style: none;
 }
 .desc-list .list-no {
     width: 100px;
@@ -509,12 +384,7 @@ p {
     font-size: 40px;
 }
 
-/*p {
-    color: #333;
-}
-p {
-    line-height: 1.5;
-}*/
+
 .desc-list .list-title {
     font-weight: bold;
     font-size: 30px;
@@ -535,23 +405,18 @@ p {
     font-weight: 900;
     line-height: 1;
 }
-/*.desc-list .example {
-    background-color: #fff;
-    width: 100%;
-    margin-top: 40px;
-    border-radius: 20px;
-    padding: 30px;
-}*/
+
 .SuccessStories__title {
     display: inline-block;
 }
-/*.SuccessStories__title > h4 {
+.SuccessStories__title > h4 {
     display: inline-block;
     font-weight: bold;
     font-size: 24px;
     line-height: 1;
     vertical-align: bottom;
-}*/
+}
+
 
 .SuccessStories p {
     font-size: 17px;
@@ -563,39 +428,25 @@ p {
     width: 34px;
 }
 
-/*img {
-    border: 0;
-    vertical-align: middle;
-}*/
+
 .SuccessStories__title::after {
     content: '';
     border-bottom: solid 4px #f79314;
     display: block;
     margin-top: 10px;
 }
-/*desc-list .example-contents.contents-tidy {
-    flex-wrap: wrap;
-}*/
+
 
 .desc-list .example-contents {
     margin: 32px 0 10px 0;
 }
-/*.contents-tidy {
-    display: flex;
-    justify-content: space-between;
-}*/
-/*ul, ol {
-    list-style: none;
-}*/
+
 .SuccessStoriesList__link {
     cursor: pointer;
     display: contents;
 }
 
-/*a {
-    color: #222;
-    text-decoration: none;
-}*/
+
 
 .SuccessStory {
     display: flex;
@@ -604,6 +455,7 @@ p {
     padding-right: 20px;
     margin-bottom: 50px;
 }
+
 .desc-list .example-contents img {
     width: 60px;
     height: 60px;
@@ -613,10 +465,7 @@ p {
     height: 60px;
     width: 60px;
 }
-/*img {
-    border: 0;
-    vertical-align: middle;
-}*/
+
 .SuccessStory__intro {
     color: #333;
     font-size: 16px;
@@ -628,18 +477,12 @@ p {
 .SuccessStoriesList__link :hover{
     color: #ff9900;
 }
-/*.desc-list > li + li {
-    margin-top: 120px;
-}*/
+.SuccessStory__mouseover :hover{
+    color: #ff9900;
+}
 
-/*.desc-list > li {
-    background-color: #fcfaf5;
-    border-radius: 20px;
-    text-align: center;
-    padding: 40px;
-}*/
 .SuccessStory::after {
-    content: url(../images/common/chevron-right.jpg);
+    content: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
     display: inline-block;
     height: fit-content;
     margin: auto;
@@ -651,38 +494,8 @@ p {
     margin-top: 120px;
 }
 
-/*.desc-list > li {
-    background-color: #fcfaf5;
-    border-radius: 20px;
-    text-align: center;
-    padding: 40px;
-}*/
-/*.desc-list .list-no {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: -90px auto 0 auto;
-    background-color: #fcfaf5;
-    border-radius: 50%;
-    color: #f79314;
-    font-weight: bold;
-    font-size: 40px;
-}*/
-/*.desc-list .list-title {
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: -20px;
-    letter-spacing: 1px;
-}
-.desc-list .list-text {
-    font-size: 16px;
-    margin-top: 30px;
-    letter-spacing: 1.5px;
-    font-weight: 700;
-    line-height: 2;
-}*/
+
+
 .CorporateInterviewSection {
     margin-top: 30px;
 }
@@ -739,7 +552,7 @@ p {
     line-height: 21px;
 }
 .CorporateInterviewCard__link  :hover{
-  opacity: 0.7;
+  color: #ff9900;
 }
 @media screen and (min-width: 768px)
 .hover-text-color {
@@ -749,16 +562,7 @@ p {
     margin-left: 10px;
     width: 6px;
 }
-/*.CorporateInterviewCard {
-    background-color: #fff;
-    border-radius: 10px;
-    display: flex;
-    margin-bottom: 25px;
-    padding: 30px;
-    position: relative;
-    text-align: left;
-    width: 100%;
-}*/
+
 
 /*<!-- 03 現役エンジニアが講師 -->*/
 
@@ -808,6 +612,10 @@ p {
     margin-left: 15px;
     font-size: 20px;
 }
+.engineer-name > span {
+    color: #f79314;
+    font-size: 14px;
+}
 .engineer-text {
     width: 100%;
     position: relative;
@@ -828,17 +636,7 @@ p {
 }
 
 /*<!-- 04 卒業後の紹介企業が多数 -->*/
-/*.desc-list .example-company {
-    padding: 28px 30px;
-}
 
-.desc-list .example {
-    background-color: #fff;
-    width: 100%;
-    margin-top: 40px;
-    border-radius: 20px;
-    padding: 30px;
-}*/
 .desc-list .example-contents.contents-tidy {
     flex-wrap: wrap;
 }
@@ -847,12 +645,7 @@ p {
     justify-content: start;
     margin: 0;
 }
-/*.desc-list .example-contents-company > li {
-    height: 71px;
-    margin: 12px 0;
-    padding: 0;
-    width: 25%;
-}*/
+
 
 .desc-list .example-contents > li {
     display: flex;
@@ -915,14 +708,7 @@ p {
     text-indent: -1.4em;
     width: 100%;
 }
-::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
-}
+
 .desc-list .example-contents-support-supplement {
     font-size: 12px;
     font-weight: 400;
@@ -965,57 +751,7 @@ p {
     align-items: center;
 }
 
-/*.section-header {
-    width: 100%;
-}*/
 
-/*.section-main-heading {
-    font-size: 46px;
-    font-weight: bold;
-}*/
-/*.section-header h2 > span {
-    font-size: 50px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-}
-
-/*.section-main-heading span {
-    font-weight: 900;
-    font-family: 'Lato', sans-serif;
-}*/
-/*.pc-dn {
-    display: none !important;
-}
-.section-sub-heading {
-    display: inline-block;
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-}*/
-/*.section-sub-heading > span {
-    font-family: 'Lato', sans-serif;
-}
-.section-header.bottom-line::after {
-    content: '';
-    display: block;
-    border-bottom: solid 6px #f79314;
-    width: 50px;
-    margin-top: 20px;
-}
-*/
-/*.section-header.contents-tidy {
-    flex-direction: column;
-    align-items: center;
-}
-.section-main-heading {
-    font-size: 46px;
-    font-weight: bold;
-}*/
-
-/*.main-section .section-header + .section-content {
-    margin-top: 60px;
-}*/
 /.course-media {
     font-weight: bold;
     padding: 45px;
@@ -1027,12 +763,14 @@ p {
     display: flex;
     flex-direction: column;
     padding: 20px 0;
+    border-style: solid;
 }
 
 
 .course-title.contents-tidy {
     justify-content: center;
     align-items: center;
+    width: 30%;
 }
 
 
@@ -1084,19 +822,20 @@ p {
 }
 .course-link {
     position: absolute;
-    right: 20px;
-    bottom: -5px;
+    right: 120px;
     font-size: 14px;
     font-weight: 700;
     color: #999;
 }
-
+.course-link:hover{
+    color: #ff9900;
+}
 @media screen and (min-width: 768px)
 .hover-text-color {
     transition: 0.2s;
 }
 .course-link::after {
-    content: url(../images/common/chevron-right.jpg);
+    content: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
     display: inline-block;
     height: fit-content;
     margin: auto;
@@ -1107,53 +846,20 @@ p {
     bottom: 10px;
     right: -14px;
 }
-/*.course-media {
-    font-weight: bold;
-    padding: 45px;
-    background-color: #fff;
-}*/
 
-/*.contents-tidy {
-    display: flex;
-    justify-content: space-between;
-}*/
 .section-button {
     margin-top: 60px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-/*.link-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #f79314;
-    border-radius: 30px;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    font-weight: bold;
-    width: 100%;
-    height: 60px;
-    font-size: 20px;
-    border: none;
-}*/
+
 
 @media screen and (min-width: 768px)
 .hover-opacity {
     transition: opacity 0.2s;
 }
-/*.link-button span:first-child {
-    letter-spacing: 4px;
-    line-height: 1.5;
-    font-family: 'Lato', sans-serif;
-}
-.link-button span:last-child {
-    font-size: 14px;
-}
-*/
+
 
 /* 05.サービスの想い  - ポテパンのプログラミング学習についてかける想い */
 
@@ -1166,39 +872,6 @@ p {
     padding: 100px 0;
 }
 
-/*.content-width {
-    max-width: 1140px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}*/
-/*.section-header.contents-tidy {
-    flex-direction: column;
-    align-items: center;
-}*/
-/*.section-main-heading {
-    font-size: 46px;
-    font-weight: bold;
-}*/
-/*.section-sub-heading {
-    display: inline-block;
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-}*/
-/*.section-header.bottom-line::after {
-    content: '';
-    display: block;
-    border-bottom: solid 6px #f79314;
-    width: 50px;
-    margin-top: 20px;
-}*/
-/*.main-section .section-header + .section-content {
-    margin-top: 60px;
-}*/
 
 .message-title {
     display: inline-block;
@@ -1274,6 +947,8 @@ p {
     padding-right: 20px;
     width: calc(100% / 3);
 }
+
+
 .interview-media .interview-media-thumbnail {
     overflow: hidden;
     position: relative;
@@ -1331,6 +1006,9 @@ p {
     margin-top: 15px;
     line-height: 1.8;
 }
+.interview-media .interview-media-text:hover{
+    color: #ff9900;
+}
 
 @media screen and (min-width: 768px)
 .hover-text-color {
@@ -1340,6 +1018,10 @@ p {
 .section-button :hover{
     opacity: 0.5;
 }
+.section-button >span:hover{
+    opacity: 1;
+}
+
 
 /*footer*/
 
@@ -1348,19 +1030,7 @@ p {
     padding-bottom: 40px;
     background-color: #f79314;
 }
-/*.content-width {
-    max-width: 1140px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
 
-.contents-tidy {
-    display: flex;
-    justify-content: space-between;
-}*/
 .page-top-button.contents-tidy {
     align-items: center;
     justify-content: center;
@@ -1505,4 +1175,3 @@ address {
     opacity: 0.5;
 }
 
-/*githubのテスト*/
