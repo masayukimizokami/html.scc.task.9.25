@@ -1,0 +1,921 @@
+
+element.style {
+}
+@media screen and (max-width: 767px){
+html {
+    font-size: 15px;
+}}
+html {
+    font-size: 14px;
+    font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+    color: #222;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+}
+*, *::before, *::after {
+    word-break: break-all;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html[Attributes Style] {
+    -webkit-locale: "ja";
+}
+user agent stylesheet
+html {
+    display: block;
+}
+head {
+    display: none;
+}
+meta {
+    display: none;
+}
+script {
+    display: none;
+}
+/*<!-- End Google Tag Manager -->*/
+*, *::before, *::after {
+    word-break: break-all;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+title {
+    display: none;
+}
+link {
+    display: none;
+}
+style {
+    display: none;
+}
+
+/*body*/
+
+body {
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
+    margin: 0;
+    padding: 0;
+}
+
+/*<!-- Google Tag Manager (noscript) -->*/
+.site-header {
+    width: 100%;
+    position: absolute;
+}
+
+@media screen and (max-width: 767px){
+.site-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}}
+@media screen and (max-width: 1080px){
+.site-header {
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+}}
+.site-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+*, *::before, *::after {
+    word-break: break-all;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+header {
+    display: block;
+}
+
+@media screen and (max-width: 767px){
+.header-width {
+    max-width: 100%;
+    margin: 0 20px;
+}}
+
+.header-width {
+    max-width: 100%;
+    margin: 0 36px 0 36px;
+    position: relative;
+}
+.contents-tidy {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px){
+.header-logo > .header-logo-pc {
+    display: none;
+}}
+
+.header-logo > .header-logo-pc {
+    width: auto;
+    height: 20px;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+@media screen and (max-width: 767px){
+.header-logo > .header-logo-sp {
+    display: inline-block;
+    width: auto;
+    height: 16px;
+}}
+
+.header-logo > .header-logo-sp {
+    display: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.site-header .site-header-inner > *:last-child {
+    display: inline-flex;
+}
+@media screen and (max-width: 1080px){
+.header-nav-hamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+}}
+
+.header-nav-hamburger {
+    display: none;
+}
+@media screen and (max-width: 1080px){
+.header-nav-hamburger-line:first-child {
+    top: 0;
+}}
+
+@media screen and (max-width: 1080px){
+.header-nav-hamburger-line {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+}}
+@media screen and (max-width: 1080px){
+.header-nav-hamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+}}
+@media screen and (max-width: 767px){
+html {
+    font-size: 15px;
+}}
+@media screen and (max-width: 1080px){
+.header-nav-hamburger-line:last-child {
+    top: 100%;
+}}
+@media screen and (max-width: 767px){
+.header-nav .header-nav-list.is-scroll {
+    top: 52px;
+    bottom: 0;
+}}
+
+@media screen and (max-width: 1080px){
+.header-nav .header-nav-list.is-scroll {
+    top: 60px;
+    bottom: 0;
+}
+.header-nav .header-nav-list.contents-tidy {
+    align-items: center;
+}}
+@media screen and (max-width: 767px){
+.header-nav .header-nav-list {
+    top: 52px;
+}}
+@media screen and (max-width: 1080px){
+.header-nav .header-nav-list {
+    overflow-y: scroll;
+    position: fixed;
+    top: 60px;
+    left: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    transition: transform 0.5s;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-overflow-scrolling: touch;
+}}
+.contents-tidy {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1080px){
+.header-nav .header-nav-item-outline {
+    margin-right: 0;
+}}
+
+.header-nav .header-nav-item-outline {
+    margin-right: 45px;
+}
+@media screen and (max-width: 1080px){
+.header-nav .header-nav-item {
+    padding: 20px 0;
+}
+}
+.header-nav .header-nav-item {
+    display: block;
+}
+@media screen and (max-width: 1080px){
+.header-nav .header-nav-item > span:first-child {
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #fff;
+}}
+
+.header-nav .header-nav-item > span:first-child {
+    font-family: 'Lato', sans-serif;
+}
+.header-nav .header-nav-item > span {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width: 1080px){
+.header-nav .header-nav-item > span:last-child {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #f79314;
+    letter-spacing: 2px;
+}}
+
+.header-nav .header-nav-item > span:last-child {
+    font-size: 10px;
+}
+@media screen and (max-width: 767px){
+main {
+    padding-top: 52px;
+}}
+
+@media screen and (max-width: 1080px){
+main {
+    padding-top: 60px;
+}}
+main {
+    display: block;
+}
+
+
+/*<!-- 01.firstview -->*/
+
+@media screen and (max-width: 767px){
+.section-top-hero {
+    padding-top: 258px;
+    padding-bottom: 12px;
+    background-image: url(../images/top-hero-sp.png);
+}}
+
+.section-top-hero {
+    padding-top: 190px;
+    padding-bottom: 28px;
+    background-image: url(../images/top-hero.png);
+    background-size: auto 100%;
+    background-position: right 0;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px){
+.content-width {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}}
+
+.content-width {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+@media screen and (max-width: 767px){
+.top-hero-box {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}}
+
+.top-hero-box {
+    position: relative;
+    max-width: 337px;
+}
+.top-hero-box .top-hero-heading > img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+@media screen and (max-width: 414px)
+.top-hero-box .top-hero-text {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px)
+.top-hero-box .top-hero-text {
+    font-size: 15px;
+    text-shadow: 0 0 10px rgb(255 255 255 / 60%);
+}
+.top-hero-box .top-hero-text {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 1.7;
+}
+@media screen and (max-width: 767px){
+.top-hero-box > * + * {
+    margin-top: 20px;
+}}
+.top-hero-box > * + * {
+    margin-top: 30px;
+}
+.top-hero-box .top-hero-text > span {
+    color: #f79314;
+}
+@media screen and (max-width: 767px){
+.top-hero-box > * + * {
+    margin-top: 20px;
+}}
+
+.top-hero-box > * + * {
+    margin-top: 30px;
+}
+.link-button.no-subtitle {
+    font-size: 16px;
+}
+
+.link-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+}
+@media screen and (max-width: 414px){
+.top-hero-box .No1-notation {
+    top: -98px;
+    left: -24px;
+}}
+
+@media screen and (max-width: 767px){
+.top-hero-box .No1-notation {
+    top: -118px;
+    left: -56px;
+}}
+@media screen and (max-width: 1024px){
+.top-hero-box .No1-notation {
+    top: -168px;
+    right: 0;
+    left: -28px;
+}}
+.top-hero-box .No1-notation {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: -170px;
+}
+@media screen and (max-width: 414px){
+.top-hero-box .No1-notation img {
+    width: 88px;
+    height: 88px;
+}}
+
+@media screen and (max-width: 767px){
+.top-hero-box .No1-notation img {
+    width: 120px;
+    height: 120px;
+}}
+.top-hero-box .No1-notation img {
+    width: 154px;
+    height: 154px;
+}
+@media screen and (max-width: 767px){
+.section-top-hero .proviso {
+    padding-top: 24px;
+    background-color: inherit;
+    color: inherit;
+    padding: none;
+}}
+
+.section-top-hero .proviso {
+    color: #888;
+    font-size: 10px;
+    max-width: 512px;
+    padding-top: 132px;
+    
+}
+@media screen and (max-width: 1024px){
+.section-top-hero .proviso p {
+    background-color: rgba(255, 255, 255, .3);
+    color: #000;
+    padding: 4px;
+}}
+
+
+/*<!-- 02.POTEPAN CAMPとは -->*/
+
+@media screen and (max-width: 767px){
+.main-section.top-about {
+    padding: 30px 0;
+}
+}
+.main-section.top-about {
+    background-color: #f79314;
+    padding: 45px 0;
+}
+.main-section {
+    padding: 100px 0;
+}
+@media screen and (max-width: 767px){
+.content-width {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}}
+
+.content-width {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+*, *::before, *::after {
+    word-break: break-all;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media screen and (max-width: 767px){
+.banner-for-students--pc {
+    display: none;
+}}
+
+.banner-for-students {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 414px){
+.banner-for-students--sp {
+    margin: 0 0 50px 5px;
+}}
+@media screen and (max-width: 480px){
+.banner-for-students--sp {
+    margin: 0 0 50px 7.5px;
+}}
+@media screen and (max-width: 767px){
+.banner-for-students--sp {
+    display: block;
+    margin: 0 0 50px 5px;
+}}
+.banner-for-students--sp {
+    display: none;
+}
+.banner-for-students {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.top-about .contents-tidy {
+    align-items: center;
+}
+
+@media screen and (max-width: 767px){
+.content-width {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}}
+.content-width {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+@media screen and (max-width: 767px){
+.top-about-content {
+    flex-direction: column;
+}}
+@media screen and (max-width: 1024px){
+.top-about-content {
+    flex-direction: column;
+    width: 100%;
+}}
+.contents-tidy {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px){
+.about-text {
+    width: 100%;
+}}
+@media screen and (max-width: 1024px){
+.about-text {
+    width: 100%;
+}}
+.about-text {
+    color: #fff;
+    width: 53%;
+}
+@media screen and (max-width: 767px){
+.about-text h2 {
+    font-size: 26px;
+    text-align: center;
+}}
+
+.about-text h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 767px){
+.about-text h2 > span {
+    font-size: 30px;
+}}
+
+.about-text h2 > span {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.about-text p {
+    color: #fff;
+    font-weight: 700;
+    margin-top: 15px;
+    line-height: 26px;
+}
+@media screen and (max-width: 767px){
+.about-text + .top-about-button {
+    margin-top: 40px;
+}}
+
+.about-text + .top-about-button {
+    margin-top: 40px;
+    width: 250px;
+}
+@media screen and (max-width: 767px){
+.top-about-button {
+    width: 100%;
+}}
+@media screen and (max-width: 1024px){
+.top-about-button {
+    width: 100%;
+}}
+.top-about-button {
+    width: 320px;
+}
+
+
+
+/*<!-- 03.POTEPAN CAMPの特徴 -->*/
+
+.main-section {
+    padding: 100px 0;
+}
+@media screen and (max-width: 767px)
+.content-width {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content-width {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.section-header.contents-tidy {
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header {
+    width: 100%;
+}
+.contents-tidy {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px)
+.section-main-heading {
+    text-align: center;
+    font-size: 26px !important;
+    line-height: 1.2;
+}
+
+.section-main-heading {
+    font-size: 46px;
+    font-weight: bold;
+}
+@media screen and (max-width: 767px)
+.section-header h2 > span {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.section-header h2 > span {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+@media screen and (max-width: 767px)
+.section-main-heading span {
+    font-size: 30px;
+}
+.section-main-heading span {
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+media screen and (max-width: 767px)
+.section-sub-heading {
+    font-size: 14px;
+}
+
+.section-sub-heading {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.section-sub-heading > span {
+    font-family: 'Lato', sans-serif;
+}
+.section-header.bottom-line::after {
+    content: '';
+    display: block;
+    border-bottom: solid 6px #f79314;
+    width: 50px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 767px)
+.main-section .section-header + .section-content {
+    margin-top: 50px;
+}
+.main-section .section-header + .section-content {
+    margin-top: 60px;
+}
+@media screen and (max-width: 767px)
+.desc-list.list-number {
+    margin-top: 90px;
+}
+
+.desc-list.list-number {
+    margin-top: 110px;
+}
+@media screen and (max-width: 767px)
+.desc-list > li {
+    padding: 30px 20px 20px 20px;
+}
+
+.desc-list > li {
+    background-color: #fcfaf5;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+@media screen and (max-width: 767px)
+.desc-list .list-no {
+    font-size: 30px;
+    height: 80px;
+    margin-top: -70px;
+    width: 80px;
+}
+.desc-list .list-no {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -90px auto 0 auto;
+    background-color: #fcfaf5;
+    border-radius: 50%;
+    color: #f79314;
+    font-weight: bold;
+    font-size: 40px;
+}
+@media screen and (max-width: 767px)
+.desc-list .list-title {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.desc-list .list-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -20px;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 767px)
+.desc-list .list-text {
+    font-size: 15px;
+    line-height: 2.2;
+}
+
+.desc-list .list-text {
+    font-size: 16px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    line-height: 2;
+}
+@media screen and (max-width: 767px)
+.desc-list .list-text span {
+    font-size: 24px;
+}
+
+.desc-list .list-text span {
+    color: #f79314;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+}
+media screen and (max-width: 767px)
+.desc-list .example {
+    padding: 20px;
+}
+
+.desc-list .example {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 30px;
+}
+@media screen and (max-width: 767px)
+.SuccessStories {
+    padding-top: 40px !important;
+}
+.SuccessStories__title {
+    display: inline-block;
+}
+@media screen and (max-width: 767px)
+.SuccessStories__title > h4 {
+    font-size: 16px;
+}
+
+.SuccessStories__title > h4 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    vertical-align: bottom;
+}
+@media screen and (max-width: 767px)
+.SuccessStories__title > img {
+    margin-left: 5px;
+    width: 24px;
+}
+
+.SuccessStories__title > img {
+    height: auto;
+    margin-left: 10px;
+    width: 34px;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+@media screen and (max-width: 767px)
+.SuccessStories__title::after {
+    margin-top: 5px;
+}
+
+.SuccessStories__title::after {
+    content: '';
+    border-bottom: solid 4px #f79314;
+    display: block;
+    margin-top: 10px;
+}
+.desc-list .example-contents.contents-tidy {
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px)
+.desc-list .example-contents {
+    margin: 14px 0 0 0;
+}
+.desc-list .example-contents {
+    margin: 32px 0 10px 0;
+}
+@media screen and (max-width: 767px)
+.SuccessStoriesList {
+    flex-direction: column;
+    margin-top: 25px !important;
+}
+.SuccessStoriesList__link {
+    cursor: pointer;
+    display: contents;
+}
+@media screen and (max-width: 767px)
+.SuccessStory {
+    align-items: center;
+    margin-bottom: 40px;
+    padding-right: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1080px)
+.SuccessStory {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.SuccessStory {
+    display: flex;
+    width: 33.3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+.desc-list .example-contents img {
+    width: 60px;
+    height: 60px;
+}
+.SuccessStory__intro {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 16px;
+    text-align: left;
+}
+.SuccessStory__intro p {
+    color: #000;
+    font-weight: 700;
+}
+@media screen and (max-width: 767px)
+.SuccessStory::after {
+    margin-right: 6px;
+}
+.SuccessStory::after {
+    content: url(../images/common/chevron-right.jpg);
+    display: inline-block;
+    height: fit-content;
+    margin: auto;
+    transform: scale(0.4);
+}
+
+/*<!-- 02 現場が認めるカリキュラム -->*/
+
+

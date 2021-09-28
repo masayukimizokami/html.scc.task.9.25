@@ -64,7 +64,7 @@ a {
     color: #222;
     text-decoration: none;
 }
-@media screen and (max-width: 767px)
+/*@media screen and (max-width: 767px)
 .header-logo > .header-logo-pc {
     display: none;
 }
@@ -73,19 +73,61 @@ a {
     display: inline-block;
     width: auto;
     height: 16px;
-}
-.header-logo > .header-logo-pc {
+}*/
+/*.header-logo > .header-logo-pc {
     width: auto;
     height: 20px;
 }
+
+.header-logo > .header-logo-pc {
+    display: block !important;
+}
+.header-logo > .header-logo-ps {
+    display: none !important;
+}*/
+
+@media screen and (max-width:768px){
+    .header-logo > .header-logo-pc {
+    display: none ;
+   }
+     .header-logo > .header-logo-sp {
+    display: inline-block;
+    width: auto;
+    height: 16px;
+}
+    }
+    
+@media screen and (min-width:768px){
+    .header-logo > .header-logo-sp {
+    display: none ;
+   }
+     .header-logo > .header-logo-pc {
+    display: inline-block;
+    width: auto;
+    height: 16px;
+}
+    }
+
+
 .header-logo:hover{
     opacity: 0.5;
 }
 
 
-.header-logo > .header-logo-sp {
+/*.header-logo > .header-logo-sp {
     display: none;
-}
+}*/
+/*@media screen and (max-width: 768px){
+    .header-logo > .header-logo-pc {
+    display: none;
+}}
+@media screen and (min-width: 768px){
+   .header-logo > .header-logo-pc {
+    width: auto;
+    height: 20px;
+} 
+}*/
+
 img {
     border: 0;
     vertical-align: middle;
@@ -294,14 +336,33 @@ img {
     width: 100%;
     margin-bottom: 50px;
 }
-
+/*
 .banner-for-students--sp {
     display: none;
 }
+
 .banner-for-students {
     width: 100%;
     margin-bottom: 50px;
+}*/
+@media screen and (max-width:768px){
+    .banner-for-students--pc {
+    display: none;
+}.banner-for-students--sp{
+    width: 100%;
+    margin-bottom: 50px;
 }
+    }
+    
+@media screen and (min-width:768px){
+   .banner-for-students--sp {
+    display: none;
+}.banner-for-students--pc{
+    width: 100%;
+    margin-bottom: 50px;
+}
+}
+    
 
 .top-about .contents-tidy {
     align-items: center;
@@ -405,13 +466,22 @@ img {
 
 
  /*<!-- 01 豊富な転職実績 -->*/
+ @media screen and (max-width: 767px){
+.desc-list > li {
+    background-color: #fcfaf5;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    list-style: none;
+}}
+@media screen and (min-width: 767px){
 .desc-list > li {
     background-color: #fcfaf5;
     border-radius: 20px;
     text-align: center;
     padding: 40px;
     list-style: none;
-}
+}}
 .desc-list .list-no {
     width: 100px;
     height: 100px;
@@ -449,7 +519,7 @@ img {
 }
 
 .SuccessStories__title {
-    display: inline-block;
+    display: inline-block
 }
 .SuccessStories__title > h4 {
     display: inline-block;
@@ -483,13 +553,17 @@ img {
     margin: 32px 0 10px 0;
 }
 
+@media screen and (max-width: 767px){
+
 .SuccessStoriesList__link {
-    cursor: pointer;
-    display: contents;
-}
-
-
-
+   
+}}
+@media screen and (min-width: 767px){
+    .SuccessStoriesList__link {
+        display: contents;
+        cursor: pointer;
+}}
+/*iki*/
 .SuccessStory {
     display: flex;
     width: 33.3%;
@@ -530,7 +604,14 @@ img {
     margin: auto;
     transform: scale(0.4);
 }
-
+@media screen and (min-width: 767px){
+.desc-list .example-contents.contents-tidy {
+    flex-wrap: wrap;
+}}
+@media screen and (maX-width: 767px){
+.desc-list .example-contents.contents-tidy {
+    flex-wrap: wrap;
+}}
 /*<!-- 02 現場が認めるカリキュラム -->*/
 .desc-list > li + li {
     margin-top: 120px;
@@ -1216,4 +1297,3 @@ address {
 .footer-social-item  :hover{
     opacity: 0.5;
 }
-
