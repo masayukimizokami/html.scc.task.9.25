@@ -56,57 +56,15 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
     padding: 0;
 }
 
-@media screen and (min-width: 768px)
-.hover-opacity {
-    transition: opacity 0.2s;
-}
+
 a {
     color: #222;
     text-decoration: none;
 }
-/*@media screen and (max-width: 767px)
-.header-logo > .header-logo-pc {
+
+.header-logo-sp{
     display: none;
 }
-@media screen and (max-width: 767px)
-.header-logo > .header-logo-sp {
-    display: inline-block;
-    width: auto;
-    height: 16px;
-}*/
-/*.header-logo > .header-logo-pc {
-    width: auto;
-    height: 20px;
-}
-
-.header-logo > .header-logo-pc {
-    display: block !important;
-}
-.header-logo > .header-logo-ps {
-    display: none !important;
-}*/
-
-@media screen and (max-width:768px){
-    .header-logo > .header-logo-pc {
-    display: none ;
-   }
-     .header-logo > .header-logo-sp {
-    display: inline-block;
-    width: auto;
-    height: 16px;
-}
-    }
-    
-@media screen and (min-width:768px){
-    .header-logo > .header-logo-sp {
-    display: none ;
-   }
-     .header-logo > .header-logo-pc {
-    display: inline-block;
-    width: auto;
-    height: 16px;
-}
-    }
 
 
 .header-logo:hover{
@@ -114,19 +72,7 @@ a {
 }
 
 
-/*.header-logo > .header-logo-sp {
-    display: none;
-}*/
-/*@media screen and (max-width: 768px){
-    .header-logo > .header-logo-pc {
-    display: none;
-}}
-@media screen and (min-width: 768px){
-   .header-logo > .header-logo-pc {
-    width: auto;
-    height: 20px;
-} 
-}*/
+
 
 img {
     border: 0;
@@ -154,10 +100,7 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
 .header-nav .header-nav-item {
     display: block;
 }
-@media screen and (min-width: 768px)
-.hover-opacity {
-    transition: opacity 0.2s;
-}
+
 
 
 .header-nav .header-nav-item > span:last-child {
@@ -170,7 +113,7 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
     text-align: center;
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 1080px){
 .header-nav-hamburger {
     cursor: pointer;
     display: block;
@@ -179,11 +122,26 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
     height: 21px;
     z-index: 100;
 }
-@media screen and (max-width: 1080px)
+ .header-logo > .header-logo-pc {
+    display: none ;
+   }
+     .header-logo > .header-logo-sp {
+    display: inline-block;
+    width: auto;
+    height: 16px;
+}
+ .header-logo > .header-logo-pc {
+    display: none ;
+   }
+     .header-logo > .header-logo-sp {
+    display: inline-block;
+    width: auto;
+    height: 16px;
+}
+
 .header-nav-hamburger-line:first-child {
     top: 0;
 }
-@media screen and (max-width: 1080px)
 .header-nav-hamburger-line {
     position: absolute;
     top: 50%;
@@ -196,17 +154,20 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
     transition: top 0.2s, transform 0.2s, opacity 0.3s;
 }
 
-@media screen and (max-width: 1080px)
+
 .header-nav .header-nav-item-outline {
     margin-right: 0;
 }
 
-@media screen and (max-width: 1080px)
+
 .header-nav .header-nav-item {
     padding: 20px 0;
 }
-
-
+}
+@media screen and (min-width: 767px){
+   header-nav{
+    margin-bottom:100px;
+}}
   /*01.firstview*/
 main {
     display: block;
@@ -290,7 +251,15 @@ p {
     border: none
 }
 
-@media screen and (min-width: 768px)
+@media screen and (max-width: 767px){
+
+.section-top-hero {
+    position: absolute;
+    padding-top: 140px;
+    padding-bottom: 12px;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero-sp.png);
+    top:50px;
+}
 .hover-opacity {
     transition: opacity 0.2s;
 }
@@ -298,32 +267,67 @@ p {
 .top-hero-box .No1-notation {
     margin: 0;
     position: absolute;
-    top: 0;
-    right: -170px;
+    top: -70px;
+    right:350px;
+    width: 10px;
+    height: auto;
 }
 .top-hero-box > * + * {
-    margin-top: 30px;
+    margin-top: 10px;
+    
+}
+.top-hero-box{    
+    position: relative;
+    max-width: 250px;
+    
+}
+
+
+.top-hero-box .top-hero-text {
+    text-align: center;
+    font-size: 13px;
+    margin-left: 0px;
+}
+.top-hero-box .top-hero-heading > img {
+    width: 200px;
+    height: auto;
+    margin-left:40px;
 }
 .top-hero-box .No1-notation img {
-    width: 154px;
-    height: 154px;
+    width: 70px;
+    height: auto;
+    margin-left: 130px
+}
+.top-hero-heading{
+    width: 300px;
+    height: auto;
 }
 img {
     border: 0;
     vertical-align: middle;
 }
-    
+
 .section-top-hero .proviso {
     color: #888;
     font-size: 10px;
     max-width: 512px;
-    padding-top: 132px;
+    padding-top: 13px;
+}
+
+.content-width {
+    max-width: auto;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10px;
 }
 
 
 /* 02.POTEPAN CAMPとは */
 
-.main-section.top-about {
+/*.main-section.top-about {
     background-color: #f79314;
     padding: 45px 0;
 }
@@ -345,12 +349,29 @@ img {
     width: 100%;
     margin-bottom: 50px;
 }*/
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .banner-for-students--pc {
     display: none;
 }.banner-for-students--sp{
     width: 100%;
-    margin-bottom: 50px;
+    margin-top: 500px;
+
+}
+.about-text h2 {
+    font-size: 26px;
+    text-align: center;
+    
+}
+.about-text p {
+    color: #fff;
+    font-weight: 700;
+    margin-top: 15px;
+    line-height: 26px;
+   
+}
+.link-button hover-opacity inversion{
+     position: absolute;
+    top: 300px
 }
     }
     
