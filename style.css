@@ -513,13 +513,14 @@ div .content-widht{
 
 /*03.POTEPAN CAMPの特徴 */
    
-/*main-section {
+main-section {
     padding: 100px 0;
 }
 
 .section-main-heading {
     font-size: 46px;
     font-weight: bold;
+    
 }
 .section-sub-heading {
     display: inline-block;
@@ -547,11 +548,58 @@ div .content-widht{
 .desc-list.list-number {
     margin-top: 110px;
 }
+@media screen and (max-width:767px){
+    main-section {
+    padding: 100px 0;
+}
 
+.section-main-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-main-heading>span {
+    font-size: 25px;
+    font-weight: bold;
+}
+.section-sub-heading {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/*.section-sub-heading > span {
+    font-family: 'Lato', sans-serif;
+}
+.section-header.bottom-line::after {
+    content: '';
+    display: block;
+    border-bottom: solid 6px #f79314;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.main-section .section-header + .section-content {
+    margin-top: 60px;
+}
+.desc-list.list-number {
+    margin-top: 110px;
+}
+    
+    
+    
+    
+    
+    
+}*/
 
 
  /*<!-- 01 豊富な転職実績 -->*/
- @media screen and (max-width: 767px){
+/*@media screen and (max-width: 767px){
 .desc-list > li {
     background-color: #fcfaf5;
     border-radius: 5px;
@@ -648,7 +696,7 @@ div .content-widht{
         display: contents;
         cursor: pointer;
 }}
-/*iki*/
+
 .SuccessStory {
     display: flex;
     width: 33.3%;
