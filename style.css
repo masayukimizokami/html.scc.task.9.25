@@ -1213,6 +1213,16 @@ main-section {
     max-height: 100%;
     width: auto;
 }
+
+@media screen and (max-width:767px){
+    .desc-list .example-contents > li {
+    display: flex;
+    width: 45.3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+}
 /*<!-- 05 サポート体制も充実 -->*/
 
 .desc-list .example {
