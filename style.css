@@ -113,14 +113,16 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
     text-align: center;
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 767px){
    .site-header {
     width: 100%;
-    height: 50px;
-    padding-top: 15px;
+    height: 620px;
+    padding-top: 30px;
     padding-bottom: 15px;
     background-color: #fff;
+    margin-top: 0px;
    }
+   
 .header-nav-hamburger {
     cursor: pointer;
     display: block;
@@ -179,7 +181,12 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
  
    header-nav{
     margin-bottom:100px;
-}}
+}
+
+
+
+
+
   /*01.firstview*/
 main {
     display: block;
@@ -262,79 +269,141 @@ p {
     font-size: 20px;
     border: none
 }
+.section-top-hero .proviso {
+    color: #888;
+    font-size: 10px;
+    max-width: 512px;
+    padding-top: 132px;
+}
+@media screen and (min-width: 767px){
+.No1-notation{
+    position: absolute;
+    top:0px;
+    left: 400px;
+    width: 100%;
+    height: 100%;
+}
+}
+
 
 @media screen and (max-width: 767px){
-
 .section-top-hero {
-    position: absolute;
-    padding-top: 140px;
-    padding-bottom: 12px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 120px;
     background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero-sp.png);
-    top:50px;
-}
-.hover-opacity {
-    transition: opacity 0.2s;
-}
-
-.top-hero-box .No1-notation {
-    margin: 0;
+    background-size: 100%;
+    margin-top: 50px;
+    margin-left:100px;
+    margin-right: 0px;
     position: absolute;
-    top: -70px;
-    right:350px;
-    width: 10px;
-    height: auto;
 }
-.top-hero-box > * + * {
-    margin-top: 10px;
+/*.section-top-heading h1 img{
+    margin-left: 300px;*/
     
-}
-.top-hero-box{    
+.content-width {
+    max-width: auto;
     position: relative;
-    max-width: 250px;
-    
+}
+.top-hero-box {
+    position: relative;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 270px;
 }
 
-
-.top-hero-box .top-hero-text {
-    text-align: center;
-    font-size: 13px;
-    margin-left: 0px;
-}
 .top-hero-box .top-hero-heading > img {
-    width: 200px;
+    width: 120%;
     height: auto;
-    margin-left:40px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.top-hero-box .No1-notation img {
-    width: 70px;
-    height: auto;
-    margin-left: 130px
-}
-.top-hero-heading{
-    width: 300px;
-    height: auto;
-}
+
 img {
     border: 0;
     vertical-align: middle;
+}
+.top-hero-box .top-hero-text {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1.7;
+    padding-bottom: 0px
+}
+.top-hero-box > * + * {
+    margin-top: 30px;
+}
+p {
+    color: #333;
+    line-height: 1.5;
+}
+
+.top-hero-box .top-hero-text > span {
+    color: #f79314;
+    }
+
+
+.top-hero-button:hover{
+    opacity: 0.5;
+}
+.link-button.no-subtitle {
+    font-size: 16px;
+    }
+
+.link-button.menu {
+    font-size: 12px;
+    height: 40px;
+    padding: 0 20px;
+}
+.link-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    border: none
 }
 
 .section-top-hero .proviso {
     color: #888;
     font-size: 10px;
     max-width: 512px;
-    padding-top: 13px;
+    padding-top:300px;
+    
+}
+.No1-notation{
+    position: absolute;
+    top:-150px;
+}
+.No1-notation img{
+    widows: 100px;
+    height: 100px;
 }
 
-.content-width {
-    max-width: auto;
-    padding-left: 30px;
-    padding-right: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 10px;
-}}
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 /* 02.POTEPAN CAMPとは */
@@ -357,6 +426,7 @@ img {
 .banner-for-students {
     width: 100%;
     margin-bottom: 50px;
+    
 }}
 
     
@@ -446,7 +516,7 @@ div .content-widht{
     display: none;
 }.banner-for-students--sp{
     width: 100%;
-    margin-top: 400px;
+    margin-top: 600px;
 
 }
 .content-width top-about-content .-tidy{
@@ -483,12 +553,12 @@ div .content-widht{
 
 .link-button hover-opacity inversion{
      position:relative;
-    top: 700px;
+    top: 70px;
 }
 .top-about-button {
     position: relative;
     top:200px;
-    left: -20px;
+    left: 170px;
     width: 250px;
 }
 .link-button {
@@ -947,12 +1017,6 @@ main-section {
 }
 
 
-
-
-
-
-
-
 /*<!-- 03 現役エンジニアが講師 -->*/
 
 .engineer-list {
@@ -1023,6 +1087,81 @@ main-section {
     border: 15px solid transparent;
     border-bottom: 15px solid #f6f6f6;
 }
+
+@media screen and (maX-width:767px){
+   .engineer-list {
+    margin-top: 45px;
+    margin-left: 215px;
+    margin-right: 15px;
+}
+
+.contents-tidy {
+    display: block;
+    justify-content: space-between;
+}
+.engineer-list .engineer-box {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0 15px;
+    width: calc(100% / 3);
+}
+.engineer-media {
+    display: block;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+}
+.engineer-conpany-logo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.engineer-conpany-logo > img {
+    width: 30%;
+}
+.engineer-profile {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.engineer-name.contents-tidy {
+    display: block;
+}
+
+.engineer-name {
+    text-align: start;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.engineer-name > span {
+    color: #f79314;
+    font-size: 14px;
+}
+.engineer-text {
+    width: 100%;
+    position: relative;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: start;
+}
+.engineer-text::before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 29px;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #f6f6f6;
+} 
+    
+}
+
+
+
+
 
 /*<!-- 04 卒業後の紹介企業が多数 -->*/
 
