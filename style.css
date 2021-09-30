@@ -559,10 +559,10 @@ main-section {
     text-align: center;
 }
 
-.section-main-heading>span {
+/*.section-main-heading>span {
     font-size: 25px;
     font-weight: bold;
-}
+}*/
 .section-sub-heading {
     display: inline-block;
     margin-top: 10px;
@@ -597,24 +597,10 @@ main-section {
     
 }*/
 
-
+}
  /*<!-- 01 豊富な転職実績 -->*/
-/*@media screen and (max-width: 767px){
-.desc-list > li {
-    background-color: #fcfaf5;
-    border-radius: 5px;
-    text-align: center;
-    padding: 30px 20px 20px 20px;
-    list-style: none;
-}}
-@media screen and (min-width: 767px){
-.desc-list > li {
-    background-color: #fcfaf5;
-    border-radius: 20px;
-    text-align: center;
-    padding: 40px;
-    list-style: none;
-}}
+
+
 .desc-list .list-no {
     width: 100px;
     height: 100px;
@@ -686,16 +672,7 @@ main-section {
     margin: 32px 0 10px 0;
 }
 
-@media screen and (max-width: 767px){
 
-.SuccessStoriesList__link {
-   
-}}
-@media screen and (min-width: 767px){
-    .SuccessStoriesList__link {
-        display: contents;
-        cursor: pointer;
-}}
 
 .SuccessStory {
     display: flex;
@@ -740,11 +717,151 @@ main-section {
 @media screen and (min-width: 767px){
 .desc-list .example-contents.contents-tidy {
     flex-wrap: wrap;
-}}
+}
+ .SuccessStoriesList__link {
+        display: contents;
+        cursor: pointer;
+}
+.desc-list > li {
+    background-color: #fcfaf5;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+    list-style: none;
+}
+    
+}
 @media screen and (maX-width: 767px){
 .desc-list .example-contents.contents-tidy {
     flex-wrap: wrap;
-}}
+}
+
+.SuccessStoriesList__link {
+   
+} 
+.desc-list > li {
+    background-color: #fcfaf5;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    list-style: none;
+}
+
+
+   .desc-list .list-no {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -90px auto 0 auto;
+    background-color: #fcfaf5;
+    border-radius: 50%;
+    color: #f79314;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.desc-list .list-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -20px;
+    letter-spacing: 1px;
+}
+.desc-list .list-text {
+    font-size: 14px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    line-height: 2;
+}
+.desc-list .list-text span {
+    color: #f79314;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.SuccessStories__title {
+    display: inline-block
+}
+.SuccessStories__title > h4 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    vertical-align: bottom;
+}
+
+
+.SuccessStories p {
+    font-size: 14px;
+    font-weight: bold ;
+}
+.SuccessStories__title > img {
+    height: auto;
+    margin-left: 10px;
+    width: 24px;
+}
+
+
+.SuccessStories__title::after {
+    content: '';
+    border-bottom: solid 4px #f79314;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.desc-list .example-contents {
+    margin: 32px 0 10px 0;
+}
+
+
+
+.SuccessStory {
+    display: flex;
+    width: 33.3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.desc-list .example-contents img {
+    width: 60px;
+    height: 60px;
+}
+
+.SuccessStory__image {
+    height: 60px;
+    width: 60px;
+}
+
+.SuccessStory__intro {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 16px;
+    text-align: left;
+}
+.SuccessStoriesList__link :hover{
+    color: #ff9900;
+}
+.SuccessStory__mouseover :hover{
+    color: #ff9900;
+}
+
+.SuccessStory::after {
+    content: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
+    display: inline-block;
+    height: fit-content;
+    margin: auto;
+    transform: scale(0.4);
+}
+}
 /*<!-- 02 現場が認めるカリキュラム -->*/
 .desc-list > li + li {
     margin-top: 120px;
