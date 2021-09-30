@@ -624,7 +624,7 @@ main-section {
 }
 
 .section-main-heading {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
@@ -637,7 +637,7 @@ main-section {
     display: inline-block;
     margin-top: 10px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -1006,12 +1006,15 @@ main-section {
 @media screen and (max-width:767px){
    .CorporateInterviewCard__left img {
     border-radius: 4px;
-    width: 160px;
+    width: 570px;
     margin-bottom: 5px;
 } 
 .CorporateInterviewCard--with-link{
     
     display: block;
+}
+.CorporateInterviewCard__right{
+    margin-top:20px;
 }
 
 }
