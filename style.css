@@ -927,14 +927,30 @@ main-section {
 .CorporateInterviewCard__link  :hover{
   color: #ff9900;
 }
-@media screen and(min-width: 768px)
-.hover-text-color {
-    transition: 0.2s;
-}
+
 .CorporateInterviewCard__link img {
     margin-left: 10px;
     width: 6px;
 }
+
+@media screen and (max-width:767px){
+   .CorporateInterviewCard__left img {
+    border-radius: 4px;
+    width: 160px;
+    margin-bottom: 5px;
+} 
+.CorporateInterviewCard--with-link{
+    
+    display: block;
+}
+
+}
+
+
+
+
+
+
 
 
 /*<!-- 03 現役エンジニアが講師 -->*/
