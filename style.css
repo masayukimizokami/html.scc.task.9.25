@@ -130,6 +130,7 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
     width: 30px;
     height: 21px;
     z-index: 100;
+    
 }
  .header-logo > .header-logo-pc {
     display: none ;
@@ -162,6 +163,10 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
     border-radius: 10px;
     transition: top 0.2s, transform 0.2s, opacity 0.3s;
 }
+.header-nav-hamburger-line:nth-child(3) {
+    top: 100%;
+}
+
 
 
 .header-nav .header-nav-item-outline {
@@ -172,16 +177,9 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
 .header-nav .header-nav-item {
     padding: 20px 0;
 }
+
 }
 
-
-@media screen and (min-width: 767px){
- 
-}
- 
-   header-nav{
-    margin-bottom:100px;
-}
 
 
 
@@ -1329,7 +1327,7 @@ main-section {
 .course-title.contents-tidy {
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
 }
 
 
@@ -1345,6 +1343,7 @@ main-section {
     margin-bottom: 7.5px;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
 }
 .course-title h3 {
     font-size: 24px;
@@ -1352,7 +1351,7 @@ main-section {
 }
 .course-media.career .course-text {
     color: #f77f14;
-    font-size: 24px;
+    font-size: 20px;
 }
 .course-contents > div {
     margin-top: 20px;
@@ -1389,10 +1388,7 @@ main-section {
 .course-link:hover{
     color: #ff9900;
 }
-@media screen and (min-width: 768px){
-.hover-text-color {
-    transition: 0.2s;
-}}
+
 .course-link::after {
     content: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
     display: inline-block;
@@ -1420,6 +1416,9 @@ main-section {
 }
 .contents-tidy {
     display: block;
+}
+.hover-text-color {
+    transition: 0.2s;
 }}
 
 
@@ -1781,7 +1780,7 @@ address {
     display: inline-block!important;
  }
   .contents-tidy{
-      display: block!important;
+     /* display: block!important;*/
   }
   .footer-character > img {
     margin: -50px 230px 0 230px;
