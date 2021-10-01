@@ -1070,6 +1070,8 @@ main-section {
     text-align: start;
     margin-left: 15px;
     font-size: 20px;
+    line-height:50%;
+    
 }
 .engineer-name > span {
     color: #f79314;
@@ -1132,8 +1134,9 @@ main-section {
 .engineer-profile {
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 50%;
 }
+
 .engineer-name.contents-tidy {
     display: block;
 }
@@ -1142,6 +1145,7 @@ main-section {
     text-align: start;
     margin-left: 15px;
     font-size: 20px;
+    line-height: 100%;
 }
 .engineer-name > span {
     color: #f79314;
