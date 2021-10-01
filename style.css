@@ -1606,7 +1606,20 @@ main-section {
 .section-button >span:hover{
     opacity: 1;
 }
-
+@media screen and (max-width:767px){
+    .interview-list {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.interview-list > li {
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100% ;
+}
+}
 
 /*footer*/
 
