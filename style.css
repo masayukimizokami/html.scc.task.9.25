@@ -1032,7 +1032,7 @@ main-section {
 }
 
 .contents-tidy {
-    /*display: flex;*/
+    display: flex;
     justify-content: space-between;
 }
 .engineer-list .engineer-box {
@@ -1203,7 +1203,7 @@ main-section {
     margin: 12px 0;
     padding: 0;
     width: 25%;
-}*/
+}
 .desc-list .example-contents > li {
     display: flex;
 
@@ -1231,6 +1231,10 @@ main-section {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 50px;
+}
+.contents-tidy {
+    display: flex;
+    justify-content: space-between;
 }
 }
 /*<!-- 05 サポート体制も充実 -->*/
@@ -1271,6 +1275,9 @@ main-section {
 
 
 
+
+
+
 /* 04.POTEPAN CAMPの選べるコース*/
 
 
@@ -1298,12 +1305,13 @@ main-section {
 }
 
 .section-header.contents-tidy {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-/.course-media {
+.course-media {
     font-weight: bold;
     padding: 45px;
     background-color: #fff;
@@ -1327,8 +1335,8 @@ main-section {
 
 
 
-.contents-tidy {
-    display: flex;*/
+.course-title .contents-tidy {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -1381,10 +1389,10 @@ main-section {
 .course-link:hover{
     color: #ff9900;
 }
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px){
 .hover-text-color {
     transition: 0.2s;
-}
+}}
 .course-link::after {
     content: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
     display: inline-block;
@@ -1406,10 +1414,16 @@ main-section {
 }
 
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px){
 .hover-opacity {
     transition: opacity 0.2s;
 }
+.contents-tidy {
+    display: block;
+}
+
+
+
 
 
 /* 05.サービスの想い  - ポテパンのプログラミング学習についてかける想い */
