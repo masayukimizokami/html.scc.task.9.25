@@ -1232,10 +1232,10 @@ main-section {
     padding-right: 20px;
     margin-bottom: 50px;
 }
-.contents-tidy {
+/*.contents-tidy {
     display: flex;
     justify-content: space-between;
-}
+}*/
 }
 /*<!-- 05 サポート体制も充実 -->*/
 
@@ -1420,7 +1420,8 @@ main-section {
 }
 .contents-tidy {
     display: block;
-}
+}}
+
 
 
 
@@ -1495,6 +1496,18 @@ main-section {
     font-size: 24px;
 }
 
+@media screen and (max-width:767px){
+.message-contents {
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+    padding: 45px 40px 40px;
+}
+.message-text{
+    order:1;
+}
+}
+
 
 /*06.受講生の声 */
 
@@ -1534,10 +1547,14 @@ main-section {
 }
 
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px){
 .hover-scale {
     transition: transform 0.2s;
-}
+}}
+
+
+
+
 .pc-dn {
     display: none !important;
 }
@@ -1575,10 +1592,13 @@ main-section {
     color: #ff9900;
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px){
 .hover-text-color {
     transition: 0.2s;
-}
+}}
+
+
+
 
 .section-button :hover{
     opacity: 0.5;
@@ -1670,10 +1690,14 @@ address {
     max-width: 280px;
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
+
+
+
+
 .footer-info .footer-logo > img {
     width: 100%;
     height: auto;
@@ -1702,10 +1726,12 @@ address {
     max-width: 60px;
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
+
+
 .footer-info .footer-social-item > img {
     width: 100%;
     height: auto;
@@ -1718,10 +1744,10 @@ address {
     max-width: 60px;
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px){
 .hover-opacity {
     transition: opacity 0.2s;
-}
+}}
 
 
 
