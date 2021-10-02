@@ -12,9 +12,7 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-html[Attributes Style] {
-    -webkit-locale: "ja";
-}
+
 user agent stylesheet
 html {
     display: block;
@@ -117,21 +115,16 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
    .site-header {
     width: 100%;
     height: 620px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 15px;
     background-color: #fff;
     margin-top: 0px;
    }
    
-.header-nav-hamburger {
-    cursor: pointer;
-    display: block;
-    position: relative;
-    width: 30px;
-    height: 21px;
-    z-index: 100;
+   
+
     
-}
+
  .header-logo > .header-logo-pc {
     display: none ;
    }
@@ -166,8 +159,19 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
 .header-nav-hamburger-line:nth-child(3) {
     top: 100%;
 }
-
-
+.header-nav-hamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+}
+.header-nav-list{
+    display: none!important;
+}
+}
+/*
 
 .header-nav .header-nav-item-outline {
     margin-right: 0;
@@ -177,7 +181,7 @@ ul, ol .header-nav .header-nav-list.contents-tidy{
 .header-nav .header-nav-item {
     padding: 20px 0;
 }
-
+*/
 }
 
 
