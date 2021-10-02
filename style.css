@@ -1446,8 +1446,7 @@ main-section {
     display: inline-block;
     font-size: 50px;
     color: #ff802c;
-    background: -webkit-linear-gradient(
-0deg, #ff802c, #f79214);
+    background: -webkit-linear-gradient(0deg, #ff802c, #f79214);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1;
@@ -1508,6 +1507,9 @@ main-section {
 }
 .message-text{
     order:1;
+}
+.message-title{
+    font-size: 30px;
 }
 }
 
