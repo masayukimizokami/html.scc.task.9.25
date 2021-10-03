@@ -1008,7 +1008,7 @@ main-section {
 @media screen and (max-width:767px){
    .CorporateInterviewCard__left img {
     border-radius: 4px;
-    width: 570px;
+    width: 100%;
     margin-bottom: 5px;
 } 
 .CorporateInterviewCard--with-link{
@@ -1310,7 +1310,7 @@ main-section {
     display: flex;
     justify-content: space-between;
    /* flex-direction: column;*/
-    align-items: center;
+  /*  align-items: center;*/
     
 }
     
@@ -1698,9 +1698,11 @@ main-section {
     white-space: nowrap;
     overflow: hidden;
 }
+
+
 .site-footer-main .footer-nav {
     margin-right: 20px;
-    order: 2;
+   
 }
 .footer-nav > li + li {
     margin-top: 30px;
@@ -1726,10 +1728,7 @@ main-section {
     width: auto;
     height: 70px;
 }
-.site-footer-main .footer-info {
-    margin-right: 40px;
-    order: 1;
-}
+
 
 .footer-info {
     display: block;
@@ -1809,10 +1808,22 @@ address {
     opacity: 0.5;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 767px){
 .hover-opacity {
     transition: opacity 0.2s;
-}}
+}
+.footer-info{
+    order:1;
+}
+.footer-nav-and-flow-company{
+    order:2;
+}
+.footer-nav-and-character{
+    order:3;
+}
+    
+    
+}
 
 
 
@@ -1844,8 +1855,24 @@ address {
 .site-footer-sub{ 
   text-align: center;
 }
-
-
+.footer-nav-and-flow-company{
+    order:1;
+   /* margin-left: 0px;
+    margin-right: 60%;
+    margin-bottom: 20px*/
+   
+}
+.footer-nav-and-character{
+    order:2;
+   /* margin-left: 0px;
+    margin-right: 60%;
+    margin-bottom: 20px;*/
+   
+    
+}
+.footer-info{
+    order:3;
+}
 }
 
 /*:last-of-type    :nth-of-type(2)*/
